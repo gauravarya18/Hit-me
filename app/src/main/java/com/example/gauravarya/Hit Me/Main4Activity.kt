@@ -21,7 +21,7 @@ class Main4Activity : AppCompatActivity() {
 
         val easy: Button = findViewById(R.id.easybt)
         easy.setOnClickListener {
-            c = 500
+            c = 1000
             Toast.makeText(applicationContext, "Easy Selected", Toast.LENGTH_SHORT).show()
 
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gauravarya.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hlogoo"
+        android:label="Hit Me"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartScreen"
+            android:label="Hit Me">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".last" />
+        <activity android:name=".help" />
+        <activity android:name="com.example.gauravarya.TestActivity" />
+        <activity android:name="com.example.gauravarya.about"></activity>
+    </application>
+
+</manifest>
